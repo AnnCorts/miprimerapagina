@@ -1,0 +1,58 @@
+body{
+    background-color:black;
+    color:rgb(196, 156, 26);
+    background-image:url(fondoAnn.jpg)
+}
+h1{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+   font-size: 36px;
+   text-align: center;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px; 
+}
+
+
+
+  /* Centered Image Code */
+  .center {  
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #dbe4ed; /* Border color is optional */  
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        }
+        .column {
+        flex: 1;
+        padding: 10px;
+        }
+        
+        @media (max-width: 600px) {
+            .column {
+            flex: 100%;
+            }
+            }
+            /*-------------
+            Este código aplicará el nuevo estilo a la clase “.column” cuando el ancho de la
+            pantalla sea de 600 píxeles o menos, haciendo que las columnas se apilen
+            verticalmente.*/            
+
+
+
+
+
